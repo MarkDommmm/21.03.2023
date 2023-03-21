@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:serif;
+}
+
+body {
+    background: url("/assets/img/franck-muller.jpg")no-repeat center center fixed;
+    background-size: cover;
+}
+
+.blur {
+    background: url("/assets/img/franck-muller.jpg")no-repeat center center fixed;
+    background-size: cover;
+    filter: blur(13px);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.widget {
+    border-top: 2px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    height: 100px;
+    width: 100%;
+}
+
+.center {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: -157px;
+    left: 0;
+    right: 0;
+}
+
+
+.text {
+    height: 340px;
+    width: 340px;
+}
+
+.text h1 {
+    text-align: center;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    margin-top: 57px;
+    font-weight: 700;
+    font-size: 38px;
+}
+
+.text p {
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    font-size: 22px;
+}

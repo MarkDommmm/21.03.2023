@@ -1,0 +1,8 @@
+.spinner {
+    border-right: 4px solid rgb(222, 15, 15);
+    /* border-inline-color: transparent; */
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+   
+  }

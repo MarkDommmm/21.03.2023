@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.container{
+    width: 700px;
+    height: auto;
+    background-color: brown;
+    padding:16px;
+}
+.btn{
+    margin-left: 300px;
+
+}
+.xnxx{
+    background-color: #c94d4d;
+    padding: 10px;
+}
+.xnxx-1{
+    background-color: #f14141;
+    margin-left: -4px;
+    padding: 10px 10px 1px 10px;
+}
+.content{
+    background-color: #c94d4d;
+    padding: 16px;
+    width: 546px;
+}

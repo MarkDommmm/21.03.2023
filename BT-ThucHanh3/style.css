@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 30px;
+
+}
+.img{
+    background: url(/assets/img/paris.jpg) center / cover no-repeat;
+    width: 420px;
+    height: 300px;
+    object-fit:cover;
+   
+
+}   
+p{
+    width: 370px;
+
+}
+#container{
+    position: relative;
+    color: #fff;    
+}
+
+.content{
+    position: absolute;
+    /* background-image: linear-gradient(540deg,white, black); */
+    top: 0px;
+    padding: 190px 26px 19px;
+   background: linear-gradient(540deg,rgba(255, 255, 255, 0), rgb(17, 16, 16));
+
+}
+.ti-arrow-circle-right{
+    font-size: 10px;
+}
+.text1{
+    color: rgb(160, 176, 176);
+}

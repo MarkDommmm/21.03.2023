@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.img{
+    position: relative;
+}
+img{
+    width: 350px;
+}
+body{
+    margin: 10px;
+}
+button{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+    color: #fff;
+    margin: 10px;
+    border: none;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 7px;
+}
+.text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    margin-top: 130px;
+    font-size: 11px;
+    text-shadow: 1px 2px 1px #000;
+    padding-left: 16px;
+}
+.btn{
+    position: absolute;
+   left: 0;
+    top: 0;
+    color:red;
+    margin-top: 35px;
+    margin-left: 300px;
+}
+p{
+    text-align: center;
+    padding: 5px;
+
+    
+}
+.ti-home{
+    color: red;
+    
+}
+.home{
+    background-color: #fff;
+}
+.home ,.text-a,.text-b{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    
+
+}
+.height{
+    width: 1px;
+    height: 21px;
+    background-color: #fff;
+    margin-left: 13px;
+}
